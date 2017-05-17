@@ -389,8 +389,8 @@ str(tidyDataSet)
 ##  $ fBodyBodyGyroJerkMag-mean(): num  -0.319 -0.635 -0.282 -0.99 -0.995 ...
 ##  $ fBodyBodyGyroJerkMag-std() : num  -0.382 -0.694 -0.392 -0.987 -0.995 ...
 ```
-## 5.2 Write the second tidy data set to txt file
+## 5.2 Write the second tidy data set to csv file
 
 ```r
-write.table(tidyDataSet, file = "tidyDataSet.txt", row.names = FALSE)
+write.csv(tidyDataSet, file = "tidyDataSet.csv", row.names = FALSE)
 ```
