@@ -1,4 +1,6 @@
-# Getting-and-Clearning-Data-Project
+# Getting and Cleaning Data Course Project
+
+
 
 ## Instructions
 
@@ -25,16 +27,18 @@ You should create one R script called run_analysis.R that does the following.
 
 Good luck!
 
+
 ## Scripts included in this project
 
 1. run_analysis.r: R script to merge, extract, label and tidy data.
 2. codeBook.Rmd: Rmd file to create code book CodeBook.md
 3. README.Rmd: Rmd file to create readme file README.md
-4. tidyDataSet.txt: the tidy data set generated with run_analysis.r
-5. CodeBook.md: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data  
+4. tidyDataSet.csv: the tidy data set generated with run_analysis.r
+5. CodeBook.md: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data 
+
 
 ## To reproduce this project
 
 1. Open R script run_analysis.r in Rstudio and click source to run it
-2. output files are: tidyDataSet.txt, CodeBook.md, README.md
+2. output files are: tidyDataSet.csv, CodeBook.md, README.md
 

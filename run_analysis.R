@@ -65,7 +65,7 @@ library(dplyr);
 tidyDataSet <- ddply(mergedData, .(subject, activity), colwise(mean))
 
 #Write the second tidy data set to txt file
-write.table(tidyDataSet, file = "tidyDataSet.txt", row.names = FALSE)
+write.csv(tidyDataSet, file = "tidyDataSet.csv", row.names = FALSE)
 
 #create the codebook
 library(knitr)
