@@ -171,7 +171,7 @@ str(mergedData)
 ##  $ tBodyAccJerk-energy()-X             : num  -1 -1 -1 -1 -1 ...
 ##   [list output truncated]
 ```
-#3. Extracts only the measurements on the mean and standard deviation for each measurement
+# 3. Extracts only the measurements on the mean and standard deviation for each measurement
 
 
 ```r
@@ -292,7 +292,7 @@ str(mergedData)
 ##  $ fBodyBodyGyroJerkMag-mean(): num  -0.992 -0.996 -0.995 -0.995 -0.995 ...
 ##  $ fBodyBodyGyroJerkMag-std() : num  -0.991 -0.996 -0.995 -0.995 -0.995 ...
 ```
-#4. Uses descriptive activity names to name the activities in the data set
+# 4. Uses descriptive activity names to name the activities in the data set
 
 
 ```r
