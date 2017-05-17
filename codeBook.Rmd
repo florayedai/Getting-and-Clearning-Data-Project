@@ -99,8 +99,8 @@ tidyDataSet <- ddply(mergedData, .(subject, activity), colwise(mean))
 str(tidyDataSet)
 
 ```
-## 5.2 Write the second tidy data set to csv file
+## 5.2 Write the second tidy data set to txt file
 ```{r}
-write.csv(tidyDataSet, file = "tidyDataSet.csv", row.names = FALSE)
+write.table(tidyDataSet, file = "tidyDataSet.txt", row.names = FALSE)
 
 ```

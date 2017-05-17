@@ -1,8 +1,6 @@
 library(data.table)
 library(plyr)
 
-setwd("C:\\Users\\flora\\Desktop\\DataScientist\\learning\\03Data-Cleaning\\project")
-
 #1: download the file, unzip it, and read the data. The data is in "UCI HAR Dataset" folder
 if( !file.exists("./Data") ) { dir.create("./Data") }
 
@@ -65,7 +63,7 @@ library(dplyr);
 tidyDataSet <- ddply(mergedData, .(subject, activity), colwise(mean))
 
 #Write the second tidy data set to txt file
-write.csv(tidyDataSet, file = "tidyDataSet.csv", row.names = FALSE)
+write.table(tidyDataSet, file = "tidyDataSet.txt", row.names = FALSE)
 
 #create the codebook
 library(knitr)
